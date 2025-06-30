@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <style>
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      #item > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+      }
+      #manage > a {
+        background-color: white;
+        text-decoration: none;
+        color: black;
+        margin: 5px 2px;
+        padding: 10px;
+        border: 2px solid black;
+        box-shadow: -5px 5px gray;
+        transition: 0.2s;
+      }
+      #manage > a:hover {
+        box-shadow: 0 0 0;
+        transform: translate(-5px, 5px);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- menu bar - start -->
+    <div class="container-fluid position-sticky bg-light top-0">
+      <div class="d-flex justify-content-between">
+        <div class="navbar">
+          <div class="navbar-text">
+            <div class="fs-5 px-2 fw-bold">Dashboard</div>
+          </div>
+        </div>
+        <div class="navbar">
+          <a
+            href="/admin/sign-in.html"
+            class="text-decoration-none navbar-logo p-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-box-arrow-in-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- menu bar - end -->
+
+    <!-- content - start -->
+    <div class="container p-5">
+      <div class="row justify-content-center row-gap-5" id="item">
+        <div class="col-12 col-md-6">
+          <img src="/assets/img/popular/samsung-galaxy-m33-3.jpg" alt="" />
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="/assets/img/popular/samsung-galaxy-m33-1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="d-flex justify-content-end" id="manage">
+        <a href="/admin/manage.html" class="fs-5 my-4 me-3">Manage Dashboard</a>
+      </div>
+    </div>
+    <!-- content - end -->
+
+    <script src="/assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
