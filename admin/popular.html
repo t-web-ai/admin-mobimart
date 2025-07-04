@@ -252,17 +252,19 @@
         <div class="navbar-text fs-5 px-3">Popular</div>
       </div>
       <!-- menu bar - end -->
-      <table class="table table-bordered table-hover table-striped">
-        <thead class="table-light">
-          <tr>
-            <th style="width: 1px">No.</th>
-            <th>Product</th>
-            <th>Units Sold</th>
-            <th>Total Revenue</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover table-striped">
+          <thead class="table-light">
+            <tr>
+              <th style="width: 1px">No.</th>
+              <th>Product</th>
+              <th class="text-nowrap">Units Sold</th>
+              <th class="text-nowrap">Total Revenue</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
 
       <!-- content - start -->
 
@@ -302,9 +304,11 @@
                 $("table>tbody").append(`
               <tr>
                 <td>${no++}</td>
-                <td>${product.model}</td>
-                <td>${product.unit_sold}</td>
-                <td>$${(product.unit_sold * product.price).toFixed(0)}</td>
+                <td class="text-nowrap">${product.model}</td>
+                <td class="text-nowrap">${product.unit_sold}</td>
+                <td class="text-nowrap">$${(
+                  product.unit_sold * product.price
+                ).toFixed(0)}</td>
               </tr>
             `);
             });
