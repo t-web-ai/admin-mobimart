@@ -11,6 +11,7 @@
     "price": 574.13,
     "discount_price": 545.38,
     "quantity": 24,
+    "unit_sold": 150,
     "image": "a54.jpg",
     "is_popular": true,
     "status": true
@@ -27,6 +28,7 @@
     "price": 300.24,
     "discount_price": 267.47,
     "quantity": 43,
+    "unit_sold": 210,
     "image": "a54.jpg",
     "is_popular": true,
     "status": false
@@ -43,6 +45,7 @@
     "price": 1218.12,
     "discount_price": 1130.25,
     "quantity": 43,
+    "unit_sold": 130,
     "image": "a54.jpg",
     "is_popular": false,
     "status": true
@@ -59,6 +62,7 @@
     "price": 932.08,
     "discount_price": 895.97,
     "quantity": 49,
+    "unit_sold": 190,
     "image": "iphone14pro.jpg",
     "is_popular": true,
     "status": true
@@ -75,6 +79,7 @@
     "price": 1180.7,
     "discount_price": 1107.46,
     "quantity": 24,
+    "unit_sold": 110,
     "image": "realme11proplus.jpg",
     "is_popular": false,
     "status": false
@@ -91,6 +96,7 @@
     "price": 646.5,
     "discount_price": 581.47,
     "quantity": 34,
+    "unit_sold": 140,
     "image": "oneplus11.jpg",
     "is_popular": false,
     "status": true
@@ -107,6 +113,7 @@
     "price": 475.57,
     "discount_price": 445.27,
     "quantity": 20,
+    "unit_sold": 95,
     "image": "a54.jpg",
     "is_popular": false,
     "status": false
@@ -123,6 +130,7 @@
     "price": 935.61,
     "discount_price": 869.93,
     "quantity": 36,
+    "unit_sold": 170,
     "image": "vivov27pro.jpg",
     "is_popular": true,
     "status": false
@@ -139,6 +147,7 @@
     "price": 1372.96,
     "discount_price": 1296.39,
     "quantity": 42,
+    "unit_sold": 220,
     "image": "infinixzero5g.jpg",
     "is_popular": false,
     "status": true
@@ -155,6 +164,7 @@
     "price": 1254.85,
     "discount_price": 1215.57,
     "quantity": 18,
+    "unit_sold": 80,
     "image": "a54.jpg",
     "is_popular": true,
     "status": true
@@ -171,6 +181,7 @@
     "price": 1110.0,
     "discount_price": 1024.59,
     "quantity": 43,
+    "unit_sold": 125,
     "image": "a54.jpg",
     "is_popular": false,
     "status": true
@@ -187,6 +198,7 @@
     "price": 903.42,
     "discount_price": 841.36,
     "quantity": 36,
+    "unit_sold": 145,
     "image": "infinixzero5g.jpg",
     "is_popular": false,
     "status": true
@@ -203,6 +215,7 @@
     "price": 354.37,
     "discount_price": 293.33,
     "quantity": 37,
+    "unit_sold": 105,
     "image": "vivov27pro.jpg",
     "is_popular": true,
     "status": true
@@ -219,6 +232,7 @@
     "price": 400.84,
     "discount_price": 300.94,
     "quantity": 18,
+    "unit_sold": 90,
     "image": "a54.jpg",
     "is_popular": false,
     "status": true
@@ -235,6 +249,7 @@
     "price": 1346.16,
     "discount_price": 1270.89,
     "quantity": 7,
+    "unit_sold": 30,
     "image": "infinixzero5g.jpg",
     "is_popular": false,
     "status": false
@@ -251,6 +266,7 @@
     "price": 263.46,
     "discount_price": 199.45,
     "quantity": 14,
+    "unit_sold": 60,
     "image": "realme11proplus.jpg",
     "is_popular": false,
     "status": true
@@ -267,6 +283,7 @@
     "price": 526.27,
     "discount_price": 463.43,
     "quantity": 42,
+    "unit_sold": 170,
     "image": "oneplus11.jpg",
     "is_popular": true,
     "status": true
@@ -283,6 +300,7 @@
     "price": 343.46,
     "discount_price": 275.28,
     "quantity": 37,
+    "unit_sold": 120,
     "image": "oneplus11.jpg",
     "is_popular": false,
     "status": false
@@ -299,6 +317,7 @@
     "price": 666.46,
     "discount_price": 619.41,
     "quantity": 50,
+    "unit_sold": 230,
     "image": "redmi12pro.jpg",
     "is_popular": true,
     "status": true
@@ -315,6 +334,7 @@
     "price": 391.18,
     "discount_price": 297.23,
     "quantity": 17,
+    "unit_sold": 75,
     "image": "iphone14pro.jpg",
     "is_popular": true,
     "status": true
@@ -331,6 +351,7 @@
     "price": 1069.54,
     "discount_price": 1012.45,
     "quantity": 10,
+    "unit_sold": 40,
     "image": "vivov27pro.jpg",
     "is_popular": false,
     "status": true
@@ -347,6 +368,7 @@
     "price": 941.78,
     "discount_price": 897.43,
     "quantity": 8,
+    "unit_sold": 35,
     "image": "iphone14pro.jpg",
     "is_popular": false,
     "status": true
@@ -363,6 +385,7 @@
     "price": 1315.21,
     "discount_price": 1225.47,
     "quantity": 31,
+    "unit_sold": 125,
     "image": "iphone14pro.jpg",
     "is_popular": true,
     "status": false
@@ -379,6 +402,7 @@
     "price": 592.16,
     "discount_price": 534.8,
     "quantity": 29,
+    "unit_sold": 90,
     "image": "realme11proplus.jpg",
     "is_popular": false,
     "status": true
@@ -395,6 +419,7 @@
     "price": 1155.06,
     "discount_price": 1087.0,
     "quantity": 12,
+    "unit_sold": 50,
     "image": "oneplus11.jpg",
     "is_popular": true,
     "status": true
@@ -411,6 +436,7 @@
     "price": 813.24,
     "discount_price": 722.51,
     "quantity": 24,
+    "unit_sold": 100,
     "image": "iphone13.jpg",
     "is_popular": true,
     "status": true
@@ -427,6 +453,7 @@
     "price": 1164.18,
     "discount_price": 1115.76,
     "quantity": 26,
+    "unit_sold": 95,
     "image": "s23ultra.jpg",
     "is_popular": false,
     "status": false
@@ -443,6 +470,7 @@
     "price": 390.17,
     "discount_price": 292.73,
     "quantity": 37,
+    "unit_sold": 115,
     "image": "a54.jpg",
     "is_popular": false,
     "status": true
@@ -459,6 +487,7 @@
     "price": 420.34,
     "discount_price": 399.27,
     "quantity": 43,
+    "unit_sold": 140,
     "image": "pixel7.jpg",
     "is_popular": true,
     "status": true
@@ -475,6 +504,7 @@
     "price": 1201.01,
     "discount_price": 1162.43,
     "quantity": 20,
+    "unit_sold": 70,
     "image": "pixel7.jpg",
     "is_popular": false,
     "status": true
