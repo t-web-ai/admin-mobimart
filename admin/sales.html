@@ -254,21 +254,42 @@
       <!-- menu bar - end -->
 
       <!-- content - start -->
-      <ul class="list-group mt-4 fs-5 m-2">
-        <li class="list-group-item d-flex justify-content-between">
-          Total Products Sold
-          <span class="badge bg-primary rounded-pill">2,152</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-          Average Order Value
-          <span class="badge bg-info rounded-pill">$178</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between">
-          Total
-          <span class="badge bg-danger rounded-pill">$2330</span>
-        </li>
-      </ul>
+      <div class="container">
+        <div class="row justify-content-center pt-4 align-items-stretch px-3">
+          <div class="p-2 py-2 col-12 col-sm-6 d-flex flex-column">
+            <div
+              class="p-4 bg-primary text-white rounded shadow flex-fill d-flex flex-column justify-content-between"
+            >
+              <div>
+                <div class="fs-1 fw-bold">2,152</div>
+                <div class="fs-5">Products Sold</div>
+              </div>
+            </div>
+          </div>
 
+          <div class="p-2 py-2 col-12 col-sm-6 d-flex flex-column">
+            <div
+              class="p-4 bg-success text-white rounded shadow flex-fill d-flex flex-column justify-content-between"
+            >
+              <div>
+                <div class="fs-1 fw-bold">$178</div>
+                <div class="fs-5">Avg. Order</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-2 py-2 col-12 col-sm-12 d-flex flex-column">
+            <div
+              class="p-4 bg-danger text-white rounded shadow flex-fill d-flex flex-column justify-content-between"
+            >
+              <div>
+                <div class="fs-1 fw-bold">$2,330</div>
+                <div class="fs-5">Total Revenue</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- content - end -->
     </div>
     <!-- main content - end -->
